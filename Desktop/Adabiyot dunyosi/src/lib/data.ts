@@ -169,18 +169,16 @@ export const audiobooks = [
   },
 ];
 
-import adbiyot8 from "../resource/8-sinf-adbiyot.pdf";
-import adbiyot9 from "../resource/9-sinf-adbiyot.pdf";
 
 export const materials = {
   "8": [
     { title: "8-sinf adabiyot", type: "Dars",
-      file: adbiyot8
+      file: "https://drive.google.com/file/d/1g2dLC4_B_W_SOdqr9zv1emJOidox-gD4/view?usp=drive_link"
     }
   ],
   "9": [
     { title: "9-sinf adabiyot", type: "Dars",
-      file: adbiyot9
+      file: "https://drive.google.com/file/d/1LzR-363he7XFhFyI0a2X9jxrcfBisLtX/view?usp=drive_link"
     }
   ],
 } as const;
