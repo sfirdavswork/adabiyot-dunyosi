@@ -131,7 +131,7 @@ export const audiobooks = [
     id: "ub-1",
     title: "Ulug‘bek xazinasi",
     author: "Odil Yoqubov",
-    audio: "../resources/01Z. Ulug‘bek xazinasi @audiokitoblar_uz.mp3",
+    audio: "../resources/01Z_Ulugbek_xazinasi.mp3",
     cover:
       "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=800&auto=format&fit=crop",
     description:

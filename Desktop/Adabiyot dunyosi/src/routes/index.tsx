@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageShell, SectionHeader } from "../components/Layout";
-import { authors, news } from "../lib/data";
+import { authors, news, type Author } from "../lib/data";
 import hero from "../assets/hero.jpg";
 import {
   ArrowRight,
@@ -151,7 +151,7 @@ function Home() {
           </Link>
         </div>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {authors.map((a) => (
+          {authors.map((a: Author) => (
             <Link
               key={a.slug}
               to="/mualliflar/$slug"
@@ -191,7 +191,7 @@ function Home() {
           </Link>
         </div>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
-          {news.map((n) => (
+          {news.map((n: any) => (
             <article
               key={n.id}
               className="overflow-hidden rounded-2xl border border-border bg-card"
